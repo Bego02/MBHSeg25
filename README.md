@@ -28,9 +28,7 @@ If a segmentation contains fewer than 25 voxels of Subarachnoid (SAH), Epidural,
 
 
 Inference
-
 To set up the environment and install the necessary dependencies, follow these steps:
-
 Build conda environment
 
 1.Create and Activate a Virtual Environment
