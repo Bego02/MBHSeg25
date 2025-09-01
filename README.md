@@ -3,7 +3,7 @@
 
 ## Description
 
-Inference repository for the winning solution in the MICCAI 2025 - MBHSEG Mulitclass Brain Hemorrhage Segmentation Challenge
+Inference repository for the MICCAI 2025 - MBHSEG Mulitclass Brain Hemorrhage Segmentation Challenge
 
 Challenge Website: https://www.mbhseg.com/
 
