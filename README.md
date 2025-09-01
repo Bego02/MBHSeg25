@@ -29,9 +29,11 @@ Developed by the Charité Lab for AI in Medicine (CLAIM) research group at Chari
 -- If a segmentation contains fewer than 25 voxels of Subarachnoid (SAH), Epidural, or Subdural hemorrhage, they are excluded and reassigned to the background class.
 
 
-Inference
+##Inference
+
 To set up the environment and install the necessary dependencies, follow these steps:
-Build conda environment
+
+### Build conda environment
 
 1.Create and Activate a Virtual Environment
     conda create -n MBHSEG25 python==3.11.10  
