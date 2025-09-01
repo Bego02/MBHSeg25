@@ -10,6 +10,7 @@ Developed by the Charité Lab for AI in Medicine (CLAIM) research group at Chari
 Please cite the 4 articles in the references section if you use this model in your research
 
 Model Details
+
 Input:
     MICCAI25 training and validaton set is used
 
@@ -18,6 +19,7 @@ Models Used:
     trained using a 5-fold cross-validation approach.
 
 Postprocessing Steps
+
     Connected Component Processing:
     All voxels of connected components that contain both Subdural and Epidural hemorrhage are reassigned to the predominant hemorrhage class.
     
