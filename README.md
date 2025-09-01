@@ -39,3 +39,17 @@ Download and place models inside models folder:
     models/multiclass
 
 Download model weights from: ????????????????????????????????????????
+
+
+Running inference
+
+Make sure that the conda environment is active
+conda conda activate MBHSEG  
+
+Run the submission.py specifying an input folder and output folder
+Generic:
+python submission.py --input_folder absolute_path_to_some_folder_containing_niftis --output_folder absolute_path_to_desired_output_folder
+
+Example on CLAIMs local computer:
+python submission.py --input_folder /media/CLAIM/storage_4tb/Submission_BHDS/folder_to_predict --output_folder /media/CLAIM/storage_4tb/folder_to_predict_segmented
+
