@@ -1,4 +1,13 @@
 # MBHSeg25
+Description
+
+Inference repository for the winning solution in the MICCAI 2025 - MBHSEG Mulitclass Brain Hemorrhage Segmentation Challenge
+
+Challenge Website: https://www.mbhseg.com/
+
+Developed by the Charité Lab for AI in Medicine (CLAIM) research group at Charité University Hospital, Berlin.
+
+Please cite the 4 articles in the references section if you use this model in your research
 
 Model Details
 
