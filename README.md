@@ -7,7 +7,7 @@ Inference repository for the MICCAI 2025 - MBHSEG Mulitclass Brain Hemorrhage Se
 
 Challenge Website: https://www.mbhseg.com/
 
-Developed by the Charité Lab for AI in Medicine (CLAIM) research group at Charité University Hospital, Berlin.
+Developed by the Charité Lab for AI in Medicine (CLAIM) research group at Charité University Hospital, Berlin, main developer and person to contact: Begüm Tahhan (begumtahhan@gmail.com) 
 
 #### Please cite the 3 articles in the references section if you use this model in your research
 
