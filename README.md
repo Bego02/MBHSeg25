@@ -1,7 +1,7 @@
 
 # MBHSeg25
 
-# Description
+## Description
 
 Inference repository for the winning solution in the MICCAI 2025 - MBHSEG Mulitclass Brain Hemorrhage Segmentation Challenge
 
@@ -9,18 +9,18 @@ Challenge Website: https://www.mbhseg.com/
 
 Developed by the Charité Lab for AI in Medicine (CLAIM) research group at Charité University Hospital, Berlin.
 
-## Please cite the 4 articles in the references section if you use this model in your research
+#### Please cite the 4 articles in the references section if you use this model in your research
 
-## Model Details
+### Model Details
 
-## 1.Input:
+#### 1.Input:
     MICCAI25 training and validaton set is used
 
-## 2.Models Used:
+#### 2.Models Used:
     **ResEncXL** variation of nnUNet models is utilized:
     trained using a 5-fold cross-validation approach.
 
-Postprocessing Steps
+### Postprocessing Steps
 
 Connected Component Processing:
 All voxels of connected components that contain both Subdural and Epidural hemorrhage are reassigned to the predominant hemorrhage class.
