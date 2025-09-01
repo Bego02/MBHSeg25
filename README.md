@@ -37,10 +37,11 @@ To set up the environment and install the necessary dependencies, follow these s
 
 1.Create and Activate a Virtual Environment
 
-    ''conda create -n MBHSEG25 python==3.11.10  
+    conda create -n MBHSEG25 python==3.11.10  
     conda activate MBHSEG25
     
 2.Install the requirements
+    
     cd ????????????????????????????????
     pip install -r requirements.txt
 
