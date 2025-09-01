@@ -45,29 +45,32 @@ To set up the environment and install the necessary dependencies, follow these s
     cd ????????????????????????????????
     pip install -r requirements.txt
 
-Download model weights
+### Download model weights
 
-Download and place models inside models folder:
+Download and place models inside **models** folder:
 
-    models/multiclass
+    - models/multiclass
 
-Download model weights from: ????????????????????????????????????????
+Download model weights from: [????????????????????????????????????????]
 
 
-Running inference
+### Running inference
 
     Make sure that the conda environment is active
-    conda conda activate MBHSEG  
+    
+    conda activate MBHSEG  
 
 
 Run the submission.py specifying an input folder and output folder
 Generic:
+
     python submission.py --input_folder absolute_path_to_some_folder_containing_niftis --output_folder absolute_path_to_desired_output_folder
 
 Example on CLAIMs local computer:
+
     python submission.py --input_folder /media/CLAIM/storage_4tb/Submission_BHDS/folder_to_predict --output_folder /media/CLAIM/storage_4tb folder_to_predict_segmented
 
-References
-1. Flanders AE, Prevedello LM, Shih G, Halabi SS, Kalpathy-Cramer J, Ball R, Mongan JT, Stein A, Kitamura FC, Lungren MP, Choudhary G, Cala L, Coelho L, Mogensen M, Morón F, Miller E, Ikuta I, Zohrabian V, McDonnell O, Lincoln C, Shah L, Joyner D, Agarwal A, Lee RK, Nath J, the RSNA-ASNR 2019 Brain Hemorrhage CT Annotators. Construction of a machine learning dataset through collaboration: the RSNA 2019 brain CT hemorrhage challenge. Radiology: Artificial Intelligence. 2020 Apr 29;2(3):e190211.
-2. Isensee, F., Jaeger, P.F., Kohl, S.A.A. et al. nnU-Net: a self-configuring method for deep  learning-based biomedical image segmentation. Nat Methods 18, 203–211 (2021).  https://doi.org/10.1038/s41592-020-01008-z) 
-3. Lin, T.-Y., Goyal, P., Girshick, R., He, K., & Dollár, P. (2020). Focal loss for dense object detection. IEEE Transactions on Pattern Analysis and Machine Intelligence, 42(2), 318–327. https://doi.org/10.1109/TPAMI.2018.2858826
+### References
+- 1. Flanders AE, Prevedello LM, Shih G, Halabi SS, Kalpathy-Cramer J, Ball R, Mongan JT, Stein A, Kitamura FC, Lungren MP, Choudhary G, Cala L, Coelho L, Mogensen M, Morón F, Miller E, Ikuta I, Zohrabian V, McDonnell O, Lincoln C, Shah L, Joyner D, Agarwal A, Lee RK, Nath J, the RSNA-ASNR 2019 Brain Hemorrhage CT Annotators. Construction of a machine learning dataset through collaboration: the RSNA 2019 brain CT hemorrhage challenge. Radiology: Artificial Intelligence. 2020 Apr 29;2(3):e190211.
+- 2. Isensee, F., Jaeger, P.F., Kohl, S.A.A. et al. nnU-Net: a self-configuring method for deep  learning-based biomedical image segmentation. Nat Methods 18, 203–211 (2021).  https://doi.org/10.1038/s41592-020-01008-z) 
+- 3. Lin, T.-Y., Goyal, P., Girshick, R., He, K., & Dollár, P. (2020). Focal loss for dense object detection. IEEE Transactions on Pattern Analysis and Machine Intelligence, 42(2), 318–327. https://doi.org/10.1109/TPAMI.2018.2858826
