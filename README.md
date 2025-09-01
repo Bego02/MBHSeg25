@@ -45,7 +45,7 @@ To set up the environment and install the necessary dependencies, follow these s
 2.Install the requirements
     
     cd CLAIM_MBHSeg25
-    pip install -e .
+    pip install -r requirements.txt
 
 ### Download model weights
 
