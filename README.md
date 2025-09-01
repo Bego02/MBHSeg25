@@ -30,14 +30,14 @@ If a segmentation contains fewer than 25 voxels of Subarachnoid (SAH), Epidural,
 Inference
 
 To set up the environment and install the necessary dependencies, follow these steps:
+
 Build conda environment
 
-    Create and Activate a Virtual Environment
+1.Create and Activate a Virtual Environment
     conda create -n MBHSEG25 python==3.11.10  
     conda activate MBHSEG25
-
-    Install the requirements
     
+2.Install the requirements
     cd ????????????????????????????????
     pip install -r requirements.txt
 
