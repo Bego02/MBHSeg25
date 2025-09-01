@@ -43,15 +43,16 @@ Download model weights from: ????????????????????????????????????????
 
 Running inference
 
-Make sure that the conda environment is active
-conda conda activate MBHSEG  
+    Make sure that the conda environment is active
+    conda conda activate MBHSEG  
+
 
 Run the submission.py specifying an input folder and output folder
 Generic:
-python submission.py --input_folder absolute_path_to_some_folder_containing_niftis --output_folder absolute_path_to_desired_output_folder
+    python submission.py --input_folder absolute_path_to_some_folder_containing_niftis --output_folder absolute_path_to_desired_output_folder
 
 Example on CLAIMs local computer:
-python submission.py --input_folder /media/CLAIM/storage_4tb/Submission_BHDS/folder_to_predict --output_folder /media/CLAIM/storage_4tb/folder_to_predict_segmented
+    python submission.py --input_folder /media/CLAIM/storage_4tb/Submission_BHDS/folder_to_predict --output_folder /media/CLAIM/storage_4tb folder_to_predict_segmented
 
 References
 1. Flanders AE, Prevedello LM, Shih G, Halabi SS, Kalpathy-Cramer J, Ball R, Mongan JT, Stein A, Kitamura FC, Lungren MP, Choudhary G, Cala L, Coelho L, Mogensen M, Morón F, Miller E, Ikuta I, Zohrabian V, McDonnell O, Lincoln C, Shah L, Joyner D, Agarwal A, Lee RK, Nath J, the RSNA-ASNR 2019 Brain Hemorrhage CT Annotators. Construction of a machine learning dataset through collaboration: the RSNA 2019 brain CT hemorrhage challenge. Radiology: Artificial Intelligence. 2020 Apr 29;2(3):e190211.
