@@ -24,11 +24,11 @@ Developed by the Charité Lab for AI in Medicine (CLAIM) research group at Chari
 
 - Connected Component Processing:
   
-  -- All voxels of connected components that contain both Subdural and Epidural hemorrhage are reassigned to the predominant hemorrhage class.
+  - All voxels of connected components that contain both Subdural and Epidural hemorrhage are reassigned to the predominant hemorrhage class.
 
 - Small Hemorrhage Removal:
 
-  -- If a segmentation contains fewer than 25 voxels of Subarachnoid (SAH), Epidural, or Subdural hemorrhage, they are excluded and reassigned to the background class.
+  - If a segmentation contains fewer than 25 voxels of Subarachnoid (SAH), Epidural, or Subdural hemorrhage, they are excluded and reassigned to the background class.
 
 
 ## Inference
