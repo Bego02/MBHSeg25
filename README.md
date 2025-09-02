@@ -17,8 +17,8 @@ Developed by the Charité Lab for AI in Medicine (CLAIM) research group at Chari
    - MICCAI25 training and validaton set is used
 
 #### 2.Models Used:
-   - **ResEncXL** variation of nnUNet models is utilized:
-   - Trained using a 5-fold cross-validation approach.
+   - **ResEncXL** variation of nnUNet models is utilized: Trained using a 5-fold cross-validation approach.
+   - Focal-Dice loos function combination is used.
 
 ### Postprocessing Steps
 
