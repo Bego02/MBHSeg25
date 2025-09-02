@@ -18,7 +18,7 @@ Developed by the Charité Lab for AI in Medicine (CLAIM) research group at Chari
 
 #### 2.Models Used:
    - **ResEncXL** variation of nnUNet models is utilized: Trained using a 5-fold cross-validation approach.
-   - Focal-Dice loos function combination is used.
+   - Focal-Dice loss function combination is used.
 
 ### Postprocessing Steps
 
