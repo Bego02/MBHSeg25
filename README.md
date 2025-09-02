@@ -68,7 +68,7 @@ Download model weights from: [(https://drive.google.com/drive/folders/19trjs9Z0z
 
  Make sure that the conda environment is active
     
-    conda activate MBHSEG  
+    conda activate MBHSEG25  
 
 
 Run the submission.py specifying an input folder and output folder
