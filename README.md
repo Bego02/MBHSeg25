@@ -49,7 +49,7 @@ To set up the environment and install the necessary dependencies, follow these s
 
 ### Download model weights
 
-Download and place models inside **Models** folder:
+Download and place models inside **models** folder:
 
    ```
    CLAIM_MBHSeg25/
