@@ -57,6 +57,7 @@ Download and place models inside **Models** folder:
    |– nnunetv2/
    |– requirements.txt
    |– submission.py
+   |– README.md
    ```
     
 
