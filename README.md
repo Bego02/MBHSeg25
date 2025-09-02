@@ -50,12 +50,14 @@ To set up the environment and install the necessary dependencies, follow these s
 ### Download model weights
 
 Download and place models inside **Models** folder:
-′′′
-   CLAIM_MBHSeg25
-    -> models
-    -> nnunetv2
-    -> requirements.txt
-    -> submission.py
+
+   ```
+   CLAIM_MBHSeg25/
+   |– models/
+   |– nnunetv2/
+   |– requirements.txt
+   |– submission.py
+   ```
     
 
 Download model weights from: [(https://drive.google.com/drive/folders/19trjs9Z0zZlK6-2dsA8AAg4CT1Uyts3N?usp=sharing)]
